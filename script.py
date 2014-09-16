@@ -8,3 +8,4 @@ html = lh.fromstring(r.text)
 for i in html.cssselect('div.quote div.text'):
     print lh.tostring(i)
     print '<hr>'
+#test comm
